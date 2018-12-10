@@ -79,7 +79,10 @@ body {
 .icp,
 .michaelPortfolio,
 .telos {
-/* want a border around the images and text  */
+  border: solid;
+  border-color: rgb(2, 54, 54);
+  border-width: 10px;
+  padding: 1em;
 }
 
 .footer {
