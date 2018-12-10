@@ -76,6 +76,12 @@ body {
     padding-bottom: 4em;
 }
 
+.icp,
+.michaelPortfolio,
+.telos {
+/* want a border around the images and text  */
+}
+
 .footer {
     position: fixed;
     left: 0;
