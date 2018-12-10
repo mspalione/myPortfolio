@@ -6,42 +6,36 @@
     </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <style>@import url('https://fonts.googleapis.com/css?family=Calligraffitti|Over+the+Rainbow');</style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
     <!-- header image -->
-<div>
-    <img class="img-fluid" src="images/armsOut.JPG" alt="picture of Melissa with her arms out">
-</div>
+<div class="head"> 
+        
 
-<div class="intro">
-    <h1>Melissa Spalione</h1>
-    <p>Hi, my name is Melissa. 
-        I am currently a web development student. 
-        I just completed the front-end web-development course at Code Louisville, an alternative learning program that focuses more on using languages rather than learning theory.
-        I will start the C#/.net course in January and will highlight new programs implementing that language as I learn it.
-        Check out my projects so far!
-    </p>
-</div>
+    <div class="popup" onclick="myFunction()">
+                <span class="popuptext" id="myPopup">
+                        Hi, my name is Melissa.<br>
+                        I am currently a web development student.<br>
+                        I just completed the front-end web-development course at Code Louisville, <br>
+                        an alternative learning program that focuses more on using languages rather than learning theory.<br>
+                        I will start the C#/.net course in January<br>
+                        and will highlight new webpages implementing that language as I learn it.<br>
+                        Check out my projects so far!
+                    </span>
+        <img class="img-fluid" src="images/armsOut.JPG" alt="picture of Melissa with her arms out">
+    </div> 
 
-<!-- project highlights -->
-<div class="projects col-8">
-    <div class="michaelPortfolio">
-        <a href="http://www.michaelspalione.com/" target="_blank"><h3>Michael Spalione scholar portfolio</h3></a>
-        <p>This site is a portfolio site for my husband who is a PhD student.
-            This site uses HTML, CSS, JavaScript, as well as frameworks such as Bootstrap and JQuery.
-            I created a custom carousel with next/previous buttons and included dots so the user knows how many images are left to view.
-            There are three embedded videos from YouTube, one embedded sound clip from SoundCloud, images, specialized fonts, nav bar, links to outside sites, all made with a mobile-first approach.
-            I am hosting the site on GitHub after connecting it with a DNS.
-        </p>
-        <div class="mjimg">
-            <a href="http://www.michaelspalione.com/" target="_blank"><img class="img-fluid" src="images/mjportfolio.JPG" alt="Image of the website michaelspalione.com"></a>
-        </div>
+    <div class="intro">
+        <h1 class="name">Melissa Spalione</h1>
     </div>
-
-    <div class="icp col-4">
+</div>
+<!-- project highlights -->
+<div class="projects row">
+    <div class="icp col-md-6 col-lg-4">
         <a href="http://icpconnect.org/" target="_blank"><h3>The Institute for Christian Psychology</h3></a>
         <p>This site is a squarespace site for a non-profit.
             I manage this site in addition to all social media outlets, keeping information up to date, eye-catching and relevant to the audience.
@@ -55,7 +49,20 @@
         </div>
     </div>
 
-    <div class="telos col-4">
+    <div class="michaelPortfolio col-lg-5 order-first">
+        <a href="http://www.michaelspalione.com/" target="_blank"><h3>Michael Spalione scholar portfolio</h3></a>
+        <p>This site is a portfolio site for my husband who is a PhD student.
+            This site uses HTML, CSS, JavaScript, as well as frameworks such as Bootstrap and JQuery.
+            I created a custom carousel with next/previous buttons and included dots so the user knows how many images are left to view.
+            There are three embedded videos from YouTube, one embedded sound clip from SoundCloud, images, specialized fonts, nav bar, links to outside sites, all made with a mobile-first approach.
+            I am hosting the site on GitHub after connecting it with a DNS.
+        </p>
+        <div class="mjimg">
+            <a href="http://www.michaelspalione.com/" target="_blank"><img class="img-fluid" src="images/mjportfolio.JPG" alt="Image of the website michaelspalione.com"></a>
+        </div>
+    </div>
+
+    <div class="telos col-md-6 col-lg">
         <a href="https://teloslawncare.wixsite.com/website" target="_blank"><h3>Telos Lawn Care</h3></a>
         <p>This is a wix site for a lawn-care business.
             I connected the site to google business, added functionality, reviews, and services offered.
@@ -68,9 +75,18 @@
 </div>
 
 
+<!-- footer -->
+<div class="footer">
+    <p>melissaspalione86@gmail.com github.com/mspalione</p>
+  </div>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/styles.js"></script>
+
+
+
 </body>    
 </html>
