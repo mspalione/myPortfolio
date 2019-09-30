@@ -1,3 +1,78 @@
 body {
-    background: teal;
+  background: LightCyan;
 }
+
+a {
+color: rgb(155, 206, 206);
+}
+p {
+color: rgb(63, 87, 112);
+}
+
+a:hover {
+color:rgb(51, 46, 46);
+}
+
+.head {
+font-family: 'Oxygen', sans-serif;
+color: rgb(11, 58, 58);
+padding: 2em;
+}
+
+.projects {
+padding: 2em;
+padding-bottom: 4em;
+}
+
+.icp,
+.michaelPortfolio,
+.telos {
+border: solid;
+border-color: rgba(9, 54, 54, 0.575);
+border-width: 10px;
+border-radius: 25px;
+padding: 1em;
+}
+
+#divMe {
+padding: 1em;
+}
+
+#me {
+position: relative;
+width: 300px;
+height: 300px;
+border: 1px solid #222;
+border-radius: 50%;
+margin: 0 auto;
+box-shadow: 0 0 20px #ccc;
+}
+
+
+img {
+border-radius: 25px;
+}
+
+.social {
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+}
+
+.social:hover {
+opacity: 0.7;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: white;
+  text-align: center;
+}
+
