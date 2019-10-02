@@ -1,21 +1,28 @@
 body {
-  background: LightCyan;
+  /* background: LightCyan; */
+  background: #32374d;
 }
 
 a {
-color: rgb(155, 206, 206);
+color: #9b9b9b;
 }
+
 p {
-color: rgb(63, 87, 112);
+  color: rgb(127, 155, 187);
+  }
+h1,
+h2 {
+color: #282f33;
+font-weight: 600;
+font-size: 2.5em;
 }
 
 a:hover {
-color:rgb(51, 46, 46);
+color:rgb(211, 208, 208);
 }
 
 .head {
 font-family: 'Oxygen', sans-serif;
-color: rgb(11, 58, 58);
 padding: 2em;
 }
 
@@ -28,14 +35,16 @@ padding-bottom: 4em;
 .michaelPortfolio,
 .telos {
 border: solid;
-border-color: rgba(9, 54, 54, 0.575);
+border-color: #282f33;
 border-width: 10px;
 border-radius: 25px;
 padding: 1em;
 }
 
 #divMe {
-padding: 1em;
+background: #282f33;
+width: 100%;
+padding: 90px;
 }
 
 #me {
@@ -48,6 +57,21 @@ margin: 0 auto;
 box-shadow: 0 0 20px #ccc;
 }
 
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+}
+
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0; 
+  color: rgb(81, 95, 110);
+}
 
 img {
 border-radius: 25px;
