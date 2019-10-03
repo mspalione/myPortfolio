@@ -110,6 +110,10 @@ box-shadow: 0 0 20px #ccc;
   border-bottom: 20px solid transparent;
 }
 
+.samples {
+  padding-top: 15px;
+}
+
 .dictionary {
   background-color: #2c334e;
   padding-top: 8px;
